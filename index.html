@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Portafolio | Sergio Arce</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#inicio">SergioArceDev</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="banner-content">
+            <div class="img-container">
+                <img src="/img/profile.jpg" alt="">
+            </div>
+            <h1>SERGIO ARCE</h1>
+            <h2>Desarrollador Web</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/sergioarcedev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SergioArceDS" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:sergioarce777@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="section-content">
+            <h2>SOBRE MI</h2>
+            <p><span>Hola, soy Sergio González Arce,</span>  un apasionado desarrollador BackEnd de Colombia, con buen espiritu de superacion, actualmente cuento con experiencia desarrollando aplicaciones o API REST con Node.js y Express.</p>
+            <p>Me apasiona el aprendizaje, por esa razon busco nuevos retos que mejoren mis habilidades y me hagan crecer personal y profesionalmente.</p>
+        </div>
+        
+        <div class="section-content">
+            <h3>EDUCACION</h3>
+            <div class="fila">
+                <div class="item-educacion">
+                    <h4>Técnico en Sistemas</h4>
+                    <span class="institucion">Servicio Nacional de Aprendizaje (SENA)</span>
+                    <span class="fecha">2016 - 2018</span>
+                    <p>Realizar mantenimiento preventivo y predictivo a equipos de computo, implementar la estructura de la red de acuerdo a un diseño preestablecido, aplicar herramientas ofimaticas de acuerdo al proyecto en desarrollo.</p>
+                </div>
+                <div class="item-educacion">
+                    <h4>Tecnología en Analisis y Desarrollo de Sistemas de Información</h4>
+                    <span class="institucion">Servicio Nacional de Aprendizaje (SENA)</span>
+                    <span class="fecha">2021 - 2023</span>
+                    <p>Implemetar sofware en cada una de sus fases, levantar requerimientos, identificar requisitos, realizar diseño de diagramas y documentacion, crear interfaces de usuario, codificar los modulos en el lenguaje de programacion, realizacion de plan de pruebas y mantenimiento.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Habilidades tecnicas -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>BootStrap</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Node.js & Express.js</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySQL & MongoDB</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades profesionales -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación Asertiva</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptacion al Cambio</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de Conflictos</span>
+                        <div class="barra-skill">
+                            <div class="porcentaje">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="section-content">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                   <video src="/videos/google-photos.mp4" controls></video> 
+                   <div class="descripcion-proyecto">
+                        <h3>Clon Google Photos</h3>
+                        <p>Node.js + TypeScript + BootStrap + MongoDB</p>
+                        <a href="https://github.com/SergioArceDS/google-photos-clon"><i class="fa-brands fa-github"></i></a>
+                   </div>
+                </div>
+                
+                <div class="proyecto">
+                    <video src="/videos/instagram.mp4" controls></video> 
+                    <div class="descripcion-proyecto">
+                        <h3>Clon Instagram</h3>
+                        <p>Node.js + Express.js + AJAX + BootStrap + MySQL</p>
+                        <a href="https://github.com/SergioArceDS/Instagram-Clon"><i class="fa-brands fa-github"></i></a>
+                   </div>
+                </div>  
+
+                <div class="proyecto">
+                    <video src="/videos/gym-up.mp4" controls></video> 
+                    <div class="descripcion-proyecto">
+                        <h3>Sistema para Administracion de Gimnasios</h3>
+                        <p>PHP + MVC + JavaScript + JQuery + AJAX + BootStrap + MySQL</p>
+                        <a href="https://github.com/SergioArceDS/gimnasio"><i class="fa-brands fa-github"></i></a>
+                   </div>
+                </div> 
+
+                <div class="proyecto">
+                    <video src="/videos/tienda.mp4" controls></video> 
+                    <div class="descripcion-proyecto">
+                        <h3>Tienda Online de Tarjetas Graficas</h3>
+                        <p>PHP + BootStrap + JavaScript + MySQL + API-PayPal</p>
+                        <a href="https://github.com/SergioArceDS/tiendaonline"><i class="fa-brands fa-github"></i></a>
+                   </div>
+                </div> 
+
+                <div class="proyecto">
+                    <video src="/videos/movies-app.mp4" controls></video> 
+                    <div class="descripcion-proyecto">
+                        <h3>MoviesApp</h3>
+                        <p>HTML + CSS + PHP + BootStrap + JavaScript + MySQL + OMDB-API</p>
+                        <a href="https://github.com/SergioArceDS/Movies-App"><i class="fa-brands fa-github"></i></a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/sergioarcedev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SergioArceDS" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:sergioarce777@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <p>Sergio Arce ©</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
