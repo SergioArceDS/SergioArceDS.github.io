@@ -350,7 +350,7 @@ html{
 
 @keyframes comunicacion{
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .trabajoequipo{
@@ -360,7 +360,7 @@ html{
 
 @keyframes trabajoequipo{
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .creatividad{
@@ -439,6 +439,11 @@ html{
 }
 
 .proyectos .galeria .proyecto video{
+    width: 100%;
+    display: block;
+}
+
+.proyectos .galeria .proyecto img{
     width: 100%;
     display: block;
 }

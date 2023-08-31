@@ -32,6 +32,8 @@ function skillsEffect(){
         habilidades[9].classList.add("adaptacion");
         habilidades[10].classList.add("dedicacion");
         habilidades[11].classList.add("resolucion");
+        habilidades[12].classList.add("dedicacion");
+        habilidades[13].classList.add("resolucion");
     }
 }
 
